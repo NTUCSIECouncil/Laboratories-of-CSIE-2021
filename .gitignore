@@ -1,3 +1,4 @@
 .jekyll-cache
 .history
+# Do not upload files in site which should be used later for production
 _site
