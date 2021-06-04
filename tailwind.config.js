@@ -3,14 +3,17 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'display': 'Playfair Display',
-      'noto': 'Noto Sans TC',
-      'source': 'Source Sans Pro'
+      'display': ['Playfair Display', 'serif'],
+      'noto': ['Noto Sans TC', 'sans-serif'],
+      'source': ['Source Sans Pro', 'sans-serif'],
+      'hans': ['SourceHans', 'serif']
     },
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+    },
   },
   plugins: [],
 }

@@ -3,50 +3,30 @@ layout: default
 title: Home
 ---
 
-<!-- HEADER SECTION -->
-
-<header class="text-center bg-pink-50 p-8 font-display text-gray-500">
-	<h1 class="font-bold text-3xl p-2">CSIE COUNCIL</h1>
-	<div class="mx-auto w-28">
-
-		<hr class="border-0 bg-gray-500 h-px my-1">
-
-		<h2 class="font-medium text-md">NTU CSIE</h2>
-		<h3 class="font-medium text-sm">2021</h3>
-
-		<hr class="border-0 bg-gray-500 h-px my-1">
-	</div>
-</header>
-
 <!-- GRID SECTION -->
 
-<div class="container text-center text-gray-600">
-	<div class="grid grid-cols-2">
-		{% for post in site.posts %}
-		<div class="flex flex-col py-6 justify-center items-center">
-			<a href="{{ post.url }}">
-				<div class="mx-auto bg-cover bg-center rounded-full w-28 h-28 mb-2" style="background-image: url('assets/img/{{ post.title }}.png');">
-				</div>
+<div class="grid grid-cols-2 md:grid-cols-4 mx-auto">
+	{% for post in site.posts %}
+	<button class="p-0 m-4" onclick="location.href='{{ post.url }}'" type="button">
+		<div class="mx-auto flex flex-col justify-center items-center rounded-3xl active:bg-pink-100 hover:bg-pink-50 p-5" style="max-width: 16rem;">
+			<div class="mx-auto bg-cover bg-center rounded-full w-28 h-28 lg:w-36 lg:h-36 my-2 shadow-md" style="background-image: url('assets/img/{{ post.title }}.png');">
+			</div>
 
-				<div class="name_section" id="{{ post.title }}">
-					<div class="chin_name text-sm font-noto font-medium">
-						教授
-					</div>
-					<div class="eng_name text-sm font-source font-bold">
-						professor
-					</div>
-					<span class="px-4 my-2 h-12 block lab_name text-gray-400 font-bold font-source text-xs">
-						lab
-					</span>
+			<div class="name_section" id="{{ post.title }}">
+				<div class="chin_name text-sm lg:text-lg font-noto font-semibold">
+					教授
 				</div>
-			</a>
-			<!-- {{ post.excerpt }} -->
+				<div class="eng_name text-sm lg:text-lg font-source font-bold">
+					professor
+				</div>
+				<span class="px-4 my-2 h-12 block lab_name text-gray-400 font-bold font-source text-xs lg:text-md">
+					lab
+				</span>
+			</div>
+		<!-- {{ post.excerpt }} -->
 		</div>
-		{% endfor %}
-	</div>
+	</a>
+	{% endfor %}
 </div>
+<script src="index.js" async defer></script>
 
-<footer class="text-center text-xs bg-pink-50 font-display text-gray-500 font-bold py-16">
-	<p>Copyright © 2021 NTU CSIE Academic · Privacy Policy</p>
-	<p>Website by Chen Yu-Hao, Lin Yun-Ping</p>
-</footer>

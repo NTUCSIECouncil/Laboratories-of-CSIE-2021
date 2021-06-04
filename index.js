@@ -1,11 +1,11 @@
 professors = {
     "Cj_lin": ["林智仁", "Chih-Jen Lin", "Machine Learning Lab"],
     "Sd_lin": ["林守德", "Shou-De Lin", "Machine Discovery and Social Network Mining Lab"],
-    "St_chen": ["陳尚澤", "Shang-Tse Chen", ""],
+    "St_chen": ["陳尚澤", "Shang-Tse Chen", "Machine Learning and Security"],
     "Cs_fuh": ["傅楸善", "Chiou-Shann Fuh", "Digital Camera and Computer Vision Lab"],
     "Sh_hung": ["洪士灝", "Shih-Hao Hung", "Performance, Application and Security Lab"],
     "Cs_shih": ["施吉昇", "Chi-Sheng Shih", "Logic Laboratory, Embedded System and Wireless Networking Lab"],
-    "Cw_lin": ["林忠緯", "Chung-Wei Lin", ""],
+    "Cw_lin": ["林忠緯", "Chung-Wei Lin", "Cyber-Physical Systems Lab"],
     "Pf_liu": ["劉邦鋒", "Pangfeng Liu", "Parallel and Distributed Processing Lab"],
     "Tony_tan": ["陳偉松", "Tony Tan", "Logic and database lab"],
     "J_hsiang": ["項潔", "Jieh Hsiang", "Automated Reasoning Laboratory"],
@@ -14,7 +14,7 @@ professors = {
     "Ht_lin": ["林軒田", "Hsuan-Tien Lin", "Computational Learning Lab"],
     "Yn_chen": ["陳縕儂", "Yun-Nung Chen", "Machine Intelligence and Understanding"],
     "Yp_hung": ["洪一平", "Yi-Ping Hung", "Image and Vision Lab"],
-    "Yh_li": ["李彥寰", "Yen-Huan Li", ""],
+    "Yh_li": ["李彥寰", "Yen-Huan Li", "Laboratory for Learning Theory and Optimization Methods"],
     "Cs_chen": ["陳祝嵩", "Chu-Song Chen", "AI Application and Integration (AI^2) Lab"],
     "Hh_chen": ["陳信希", "Hsin-Hsi Chen", "Natural Language Processing Lab"],
     "Cl_yang": ["楊佳玲", "Chia-Lin Yang", "Embedded Computing Lab"],
@@ -38,7 +38,6 @@ professors = {
 //         if (err) throw err;
 //     })
 // }
-
 
 window.addEventListener('load', function () {
     console.log("It's loaded!");

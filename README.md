@@ -12,3 +12,7 @@
 
 4. Start Website
 `bundle exec jekyll serve --livereload`
+
+* Compile tailwindcss
+
+`npx tailwindcss-cli@latest build ./assets/css/base.css -c tailwind.config.js -o ./assets/css/tailwind.css`
