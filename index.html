@@ -7,9 +7,9 @@ title: CSIE Council
 
 <div class="grid grid-cols-2 md:grid-cols-4 mx-auto">
 	{% for post in site.posts %}
-	<button class="p-0 m-4" onclick="location.href='{{ post.url }}'" type="button">
+	<button class="p-0 m-4" onclick="location.href='{{ post.url | relative_url }}'" type="button">
 		<div class="mx-auto flex flex-col justify-center items-center rounded-3xl active:bg-pink-100 hover:bg-pink-50 p-5" style="max-width: 16rem;">
-			<div class="mx-auto bg-cover bg-center rounded-full w-28 h-28 lg:w-36 lg:h-36 my-2 shadow-md" style="background-image: url('assets/img/{{ post.title }}.png');">
+			<div class="mx-auto bg-cover bg-center rounded-full w-28 h-28 lg:w-36 lg:h-36 my-2 shadow-md" style="background-image: url('{{site.baseurl}}/assets/img/{{ post.title }}.png');">
 			</div>
 
 			<div class="name_section" id="{{ post.title }}">
@@ -28,5 +28,5 @@ title: CSIE Council
 	</a>
 	{% endfor %}
 </div>
-<script src="index.js" async defer></script>
+<script src={{ "/index.js" | relative_url }} async defer></script>
 

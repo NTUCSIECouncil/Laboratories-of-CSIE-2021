@@ -10,13 +10,13 @@
         <title>{{ page.title }}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/assets/css/tailwind.css">
+        <link rel="stylesheet" href={{ "/assets/css/tailwind.css" | relative_url }}>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-        <link rel="manifest" href="/assets/favicons/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href={{ "/assets/favicons/apple-touch-icon.png" | relative_url }}>
+        <link rel="icon" type="image/png" sizes="32x32" href={{ "/assets/favicons/favicon-32x32.png" | relative_url }}>
+        <link rel="icon" type="image/png" sizes="16x16" href={{ "/assets/favicons/favicon-16x16.png" | relative_url }}>
+        <link rel="manifest" href={{ "/assets/favicons/site.webmanifest" | relative_url }}>
         {% feed_meta %}
         {% seo %}
     </head>
@@ -25,7 +25,7 @@
         <!-- HEADER SECTION -->
 
         <header class="text-center bg-pink-50 p-8 font-display text-gray-500">
-            <button class="p-0 m-4" onclick="location.href='/index.html'" type="button">
+            <button class="p-0 m-4" onclick="location.href='{{site.baseurl}}/index.html'" type="button">
                 <div class="font-bold text-3xl lg:text-5xl p-2 lg:p-8">CSIE COUNCIL</div>
                 <div class="mx-auto w-1/12" style="min-width: 8rem;">
 

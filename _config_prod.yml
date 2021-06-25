@@ -1,0 +1,14 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+url: "http://council.csie.ntu.edu.tw"
+baseurl: "/43rd"
