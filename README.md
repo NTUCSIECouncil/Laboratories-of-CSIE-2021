@@ -20,3 +20,9 @@
 * Deploy to server
 
 `bash deploy.sh`
+
+* Run server locally
+
+`bash serve.sh`
+
+[Jekyll Website](https://jekyllrb.com/)

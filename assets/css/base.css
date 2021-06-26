@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
+  /* @font-face {
     font-family: 'SourceHans';
 
     src: url("/assets/fonts/SourceHanSerifTC-ExtraLight.woff") format('woff');
@@ -71,7 +71,7 @@
     font-weight: 700;
 
     font-style: normal;
-  }
+  } */
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-hans;
