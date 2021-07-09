@@ -25,6 +25,8 @@ professors = {
     "Yj_hsu": ["許永真", "Jane Yung-Jen Hsu", "Intelligent Agents Lab"],
     "Cf_chou": ["周承復", "Cheng-Fu Chou", "Communication and Multimedia Lab"],
     "Lc_fu": ["傅立成", "Li-Chen Fu", "Intelligent Robotics and Automation Lab"],
+    "Hc_hsiao": ["蕭旭君", "Hsu-Chun Hsiao", "PC Laboratory"],
+    "Yf_tseng": ["曾宇鳳", "Yu-Feng Tseng", "Bioinformatics and Cheminformatics Lab"]
     // "": ["", "", ""],
 }
 
@@ -47,7 +49,6 @@ window.addEventListener('load', function () {
 
         let id = sections[i].id;
         console.log(id);
-
         // Change professor information according to json
         sections[i].children[0].innerHTML = professors[id][0];
         sections[i].children[1].innerHTML = professors[id][1];
