@@ -40,3 +40,5 @@ bash serve.sh
 [Jekyll Website](https://jekyllrb.com/)
 
 [2021 CSIE Council](https://council.csie.ntu.edu.tw/43rd/)
+
+[2020 CSIE Council](https://council.csie.ntu.edu.tw/42nd/)
