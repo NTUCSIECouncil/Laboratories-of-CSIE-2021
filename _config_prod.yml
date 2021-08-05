@@ -10,5 +10,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-url: "http://council.csie.ntu.edu.tw"
+url: "https://council.csie.ntu.edu.tw"
 baseurl: "/43rd"
