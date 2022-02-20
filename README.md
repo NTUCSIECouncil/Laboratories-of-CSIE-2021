@@ -22,7 +22,7 @@ bundle exec jekyll serve --livereload
 * Compile tailwindcss
 
 ```
-npx tailwindcss-cli@latest build -i ./assets/css/base.css -c tailwind.config.js -o ./assets/css/tailwind.css
+npx tailwindcss-cli@0.1.2 build -i ./assets/css/base.css -c tailwind.config.js -o ./assets/css/tailwind.css
 ```
 
 * Deploy to server
