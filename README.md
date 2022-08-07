@@ -1,3 +1,6 @@
+> # ⚠ This repository has been archived and valid content has been moved to [Laboratories of CSIE](https://github.com/NTUCSIECouncil/Laboratories-of-CSIE)
+
+
 # CSIECouncil-2021
 
 ## Usage
